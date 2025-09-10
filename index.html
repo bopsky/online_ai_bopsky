@@ -18,7 +18,6 @@
       padding: 2rem;
       color: white;
     }
-
     .card-img-top {
       object-fit: cover;
       width: 100%;
@@ -28,6 +27,36 @@
 </head>
 
 <body>
+  <!-- 네비게이션 바 시작 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">security_skybop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tasks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Datas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="class.html">Class</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- 네비게이션 바 끝 -->
+
   <div class="hero">
     <h1 class="fw-bold">security_skybop</h1>
     <h2 class="fs-4">미래의 보안 전문가인 나</h2>
@@ -35,8 +64,7 @@
 
   <div class="container mt-5">
     <div class="row row-cols-1 row-cols-md-3 g-4">
-
-      <!-- 카드 1 : 올데이 프로젝트 -->
+      <!-- 카드 1 : tasks -->
       <div class="col">
         <div class="card">
           <img src="https://img.etoday.co.kr/pto_db/2025/06/20250609072109_2182752_1200_1500.jpeg"
@@ -48,8 +76,7 @@
           </div>
         </div>
       </div>
-
-      <!-- 카드 2 : 키스오브라이프 -->
+      <!-- 카드 2 : datas -->
       <div class="col">
         <div class="card">
           <img src="https://static.wikia.nocookie.net/kpop/images/7/7f/KIOF_KISS_OF_LIFE_group_concept_photo_1.png/revision/latest/scale-to-width-down/1200?cb=20230702150935"
@@ -61,8 +88,7 @@
           </div>
         </div>
       </div>
-
-      <!-- 카드 3 : 비비 -->
+      <!-- 카드 3 : project -->
       <div class="col">
         <div class="card">
           <img src="https://profileyong.com/wp-content/uploads/2024/11/%EB%B9%84%EB%B9%84-06.jpg"
@@ -74,12 +100,10 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
-
   <!-- 부트스트랩 JS 연결 -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
+
